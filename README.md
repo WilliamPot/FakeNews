@@ -23,7 +23,7 @@ For details of the dataset, please see `fnc-1/README.md`
 
 This file allows user:
 
-(1).To generate input data into the folder `input/level1` and `input/level2`, then restore two pre-trained Multilayers Neural Network models (`/model/trained_models/stage1/nn/model.ckpt`,`/model/trained_models/stage2/nn/model.ckpt`) for prediction;
+(1).To generate input data into the folder `input/level1` and `input/level2`, then restore two pre-trained Multilayers Neural Network models (`model/trained_models/stage1/nn/model.ckpt`,`model/trained_models/stage2/nn/model.ckpt`) for prediction;
 
 (2).The result of prediction will be saved in `fnc-1/predict.csv`;
 
@@ -49,13 +49,13 @@ To get started, simply download the files in this repository to a local director
 
 Before any operation, the following is needed:
 
-`python == 3.5`
-`Numpy == 1.14`
-`scikit-learn == 0.19.1`
-`pandas == 0.23.0`
-`gensim == 3.4.0`
-`nltk == 3.2.5`
-`tensorflow`
+`python == 3.5`<br>
+`Numpy == 1.14`<br>
+`scikit-learn == 0.19.1`<br>
+`pandas == 0.23.0`<br>
+`gensim == 3.4.0`<br>
+`nltk == 3.2.5`<br>
+`tensorflow`<br>
 
 In fact, any version is OK if there isn't any error after running the program.
 
