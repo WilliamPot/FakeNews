@@ -37,5 +37,26 @@ These two files contain a countvectorizer model and a TF-IDF model for transform
 
 This folder contains files that allow user get data for training and testing from original data set.
 
+### `model`
+
+This folder contains all core files of our project including several python scripts and csv files containing transformed data.
+
 3.Getting Started
 ---
+To get started, simply download the files in this repository to a local directory
+
+### Prerequisites
+
+Before any operation, the following is needed:
+
+`
+python == 3.5
+Numpy == 1.14
+scikit-learn == 0.19.1
+pandas == 0.23.0
+gensim == 3.4.0
+nltk == 3.2.5
+tensorflow
+`
+
+In fact, any version is OK if there isn't any error after running the program
