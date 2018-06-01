@@ -10,9 +10,9 @@ from model import model_input
 from model import classifier
 from utils import dataset_test
 #generate input data.
-#input_class = model_input.Generate_data()
-#input_class.generate_level_1()
-#input_class.generate_level_2()
+input_class = model_input.Generate_data()
+input_class.generate_level_1()
+input_class.generate_level_2()
 target_file = 'fnc-1/competition_test_stances.csv'
 predict_file = 'fnc-1/predict.csv'
 

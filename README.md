@@ -1,29 +1,32 @@
 
 COMP9417 Assignment2 Topic 1.5: FakeNewsChallenge
 ===
-1.Introduction
+
+Introduction
 ---
+
 This task involves two steps: 
 
-(1).Determine whether a number of pairs of headline and article is related or unrelated;
+(1).Determine whether a pair of headline and article is related or unrelated;
 
 (2).Among those related pairs, determine the stance of the article to the headline('agree', 'discuss' or 'disagree').
 
 For details of the task, see report or [FakeNewsChallenge.org](http://fakenewschallenge.org)
 
-2.Files Description
+Files Description
 ---
+
 ### `fnc-1`
 
-This folder contains original dataset and output result from our prediction model.
+This folder contains original dataset and output result of our prediction model.
 
-For details of the dataset, please see `fnc-1/README.md`
+For details of the dataset, please see `fnc-1/README.md`.
  
 ### `predict.py`
 
-This file allows user:
+This file allows us:
 
-(1).To generate input data into the folder `input/level1` and `input/level2`, then restore two pre-trained Multilayers Neural Network models (`model/trained_models/stage1/nn/model.ckpt`,`model/trained_models/stage2/nn/model.ckpt`) for prediction;
+(1).To generate data to be tested into the folder `input/level1` and `input/level2`, then restore two pre-trained Multilayers Neural Network models (`model/trained_models/stage1/nn/model.ckpt`,`model/trained_models/stage2/nn/model.ckpt`) for prediction;
 
 (2).The result of prediction will be saved in `fnc-1/predict.csv`;
 
@@ -35,7 +38,7 @@ These two files contain a countvectorizer model and a TF-IDF model for transform
 
 ### `utils`
 
-This folder contains files that allow user get data for training and testing from original data set.
+This folder contains files that allow us get data for from original data set and do some validation.
 
 ### `model`
 
@@ -51,11 +54,12 @@ This folder contains all core files of our project including several python scri
 
 `classfier.py` contains class which can restore pre-trained models and do prediction.
 
-3.Getting Started
+Getting Started
 ---
+
 To get started, simply download the files in this repository to a local directory.
 
-If there is not a folder named `fnc-1` under the project directory, please download from: 
+If the folder named `fnc-1` doesn't exist under the project directory, please download it from: 
 
 then extract it under the project directory.
 
@@ -75,7 +79,7 @@ In fact, any version is OK if no error occurs after running the program.
 
 ### Installing
 
-As transforming original data and writting it into csv files may take some time, they have been prepared already.
+As transforming original data and writting them into csv files may take some time, they have been prepared already.
 
 Just execute `predict.py`, then cd to `/fnc-1` and enter `python scorer.py target.csv predict.csv` in command line.
 
@@ -83,8 +87,11 @@ After this, the result including our final score will be printed out.
 
 On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related score = TEST/MAX*100
 
-4.Reproducing the Submission
+Reproducing the Submission
 ---
+
+The whole procedure will take some time to be completed.
+
 At first, cd to `/model` in command line.
 
 ### Step 1: Training model for 'Related or Unrelated' task
@@ -123,7 +130,6 @@ On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related sco
 
 5.Team Member
 ---
-Student Name        Student Number:
-Chen Guo            z5103300
-Jiahui Lang         z5119297
-Tao Wan             z5099147
+* Chen Guo</br>
+* Jiahui Lang</br>
+* Tao Wan</br>
