@@ -45,7 +45,7 @@ This folder contains all core files of our project including several python scri
 
 `s2_train.py` and `s2_test.py` generate training and testing data from original dataset for step 2.
 
-`s1_nn_train.py` and `s2_nn_test.py` train the corresponding model for step 1.
+`s1_nn_train.py` and `s2_nn_test.py` train the corresponding model for step 1 and step 2.
 
 `model_input.py` contains class which can generate data from original dataset for final prediction.
 
@@ -120,3 +120,10 @@ You can check wheter the model correctly predicted each test data in `model/s2_t
 (3)After this, the result including our final score will be printed out. 
 
 On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related score = TEST/MAX*100
+
+5.Team Member
+---
+Student Name        Student Number:
+Chen Guo            z5103300
+Jiahui Lang         z5119297
+Tao Wan             z5099147
