@@ -123,6 +123,6 @@ On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related sco
 
 5.Team Member
 ---
-Chen Guo             z5103300</br>
-Jiahui Lang          z5119297</br>
-Tao Wan              z5099147</br>
+* Chen Guo</br>
+* Jiahui Lang</br>
+* Tao Wan</br>
