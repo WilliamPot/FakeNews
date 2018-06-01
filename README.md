@@ -49,14 +49,18 @@ To get started, simply download the files in this repository to a local director
 
 Before any operation, the following is needed:
 
-`
-python == 3.5<br> 
-Numpy == 1.14<br> 
-scikit-learn == 0.19.1<br> 
-pandas == 0.23.0<br> 
-gensim == 3.4.0<br> 
-nltk == 3.2.5<br> 
-tensorflow
-`
+`python == 3.5`
+`Numpy == 1.14`
+`scikit-learn == 0.19.1`
+`pandas == 0.23.0`
+`gensim == 3.4.0`
+`nltk == 3.2.5`
+`tensorflow`
 
-In fact, any version is OK if there isn't any error after running the program
+In fact, any version is OK if there isn't any error after running the program.
+
+4.Installing
+---
+
+5.Reproducing the Submission
+---
