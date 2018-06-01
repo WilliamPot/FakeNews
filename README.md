@@ -123,7 +123,7 @@ On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related sco
 
 5.Team Member
 ---
-Student Name        Student Number:
-Chen Guo            z5103300
-Jiahui Lang         z5119297
-Tao Wan             z5099147
+Student Name:        Student Number:</br>
+Chen Guo             z5103300</br>
+Jiahui Lang          z5119297</br>
+Tao Wan              z5099147</br>
