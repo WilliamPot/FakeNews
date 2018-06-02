@@ -25,6 +25,7 @@ cop = re.compile("[^a-z^A-Z^0-9]")
 
 stage1_label = {"unrelated":0,"agree":1,"discuss":1,"disagree":1}
 
+dataset = dataset.DataSet(name='competition_test')
 stances = dataset.stances
 articles = dataset.articles
 articles_key = [key for key in articles.keys()]
