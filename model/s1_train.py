@@ -5,10 +5,8 @@ Created on Sat May 19 15:43:26 2018
 @author: Chen
 """
 import re
-import utils
+from utils import dataset
 import pandas as pds
-import feature_engineering
-import fnc_kfold
 from gensim import corpora
 from nltk.corpus import stopwords
 import numpy as np
@@ -24,7 +22,7 @@ cop = re.compile("[^a-z^A-Z^0-9]")
 
 stage1_label = {"unrelated":0,"agree":1,"discuss":1,"disagree":1}
 
-dataset = utils.dataset.DataSet()
+dataset = dataset.DataSet()
 stances = dataset.stances
 articles = dataset.articles
 articles_key = [key for key in articles.keys()]

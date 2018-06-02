@@ -6,12 +6,9 @@ Created on Sat May 19 17:52:07 2018
 """
 
 import re
-import utils
+from utils import dataset
 import pandas as pds
-import feature_engineering
-import fnc_kfold
 from gensim import corpora, models, similarities 
-import string
 from nltk.corpus import stopwords
 import numpy as np
 from sklearn import svm
@@ -28,7 +25,6 @@ cop = re.compile("[^a-z^A-Z^0-9]")
 
 stage1_label = {"unrelated":0,"agree":1,"discuss":1,"disagree":1}
 
-dataset = utils.dataset.DataSet(name='competition_test')
 stances = dataset.stances
 articles = dataset.articles
 articles_key = [key for key in articles.keys()]

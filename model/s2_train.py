@@ -6,12 +6,9 @@ Created on Wed May 30 16:12:08 2018
 """
 
 import re
-import utils
+from utils import dataset
 import pandas as pds
-import feature_engineering
-import fnc_kfold
 from gensim import corpora, models, similarities 
-import string
 from nltk.corpus import stopwords
 import numpy as np
 from sklearn.cross_validation import train_test_split
@@ -37,7 +34,7 @@ cop = re.compile("[^a-z^A-Z^0-9]")
 
 stage1_label = {"agree":0,"discuss":1,"disagree":2}
 
-dataset = utils.dataset.DataSet()
+dataset = dataset.DataSet()
 stances = [stance for stance in dataset.stances if stance["Stance"]!="unrelated"]
 articles = dataset.articles
 articles_key = [key for key in articles.keys()]
