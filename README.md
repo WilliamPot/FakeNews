@@ -57,7 +57,7 @@ This folder contains all core files of our project including several python scri
 Getting Started
 ---
 
-To get started, simply download the zip file from [Google Drive](https://drive.google.com/open?id=1e0XZ0LWKJOK-fGJ9Vd8Fi000ZjqWo6q5), and unzip all files .
+To get started, simply download the zip file from [Google Drive](https://drive.google.com/open?id=1tcpnds6jimzoT8oSxMW1YY0NntpH6OGk) and unzip all files.
 
 ### Prerequisites
 
@@ -70,21 +70,21 @@ Before any operation, the following is needed:
 `gensim == 3.4.0`<br>
 `nltk == 3.2.5`<br>
 `tensorflow`<br>
+`pickle`<br>
 
 In fact, any version is OK if no error occurs after running the program.
 
 ### Installing
 
-As transforming original data and writting them into csv files may take some time, if you download files from [Google Drive](https://drive.google.com/open?id=1e0XZ0LWKJOK-fGJ9Vd8Fi000ZjqWo6q5), they have been prepared already.
+As transforming original data and writting them into csv files may take some time, they have been prepared already.
 
-Just execute `predict.py` under the project directory, then cd to `/fnc-1` and enter `python scorer.py target.csv predict.csv` in command line.
+Just execute `predict.py`(may take some time to complete), then cd to `/fnc-1` and enter `python scorer.py target.csv predict.csv` in command line.
 
 After this, the result including our final score will be printed out. 
 
 On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related score = TEST/MAX*100
 
-If you clone from this repository, you have to follow the steps in 'Reproducing the Submission' to rebuild the whole project.
-
+if you directly clone files from this repository rather than download from [Google Drive](https://drive.google.com/open?id=1tcpnds6jimzoT8oSxMW1YY0NntpH6OGk), you have to follow the steps in 'Reproducing the Submission' to rebuild the whole project.
 Reproducing the Submission
 ---
 
