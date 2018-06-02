@@ -8,13 +8,12 @@ Created on Wed May 30 16:12:08 2018
 import re
 from utils import dataset
 import pandas as pds
-from gensim import corpora, models, similarities 
+from gensim import corpora, similarities 
 from nltk.corpus import stopwords
 import numpy as np
-from sklearn.cross_validation import train_test_split
-from gensim.models import LdaModel, TfidfModel,Word2Vec
+from gensim.models import TfidfModel
 from nltk.tokenize import sent_tokenize
-from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 import pickle as pkl
 
 def transform(text,stoplist,model):

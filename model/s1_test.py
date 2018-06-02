@@ -8,13 +8,10 @@ Created on Sat May 19 17:52:07 2018
 import re
 from utils import dataset
 import pandas as pds
-from gensim import corpora, models, similarities 
+from gensim import corpora
 from nltk.corpus import stopwords
 import numpy as np
-from sklearn import svm
-from sklearn.cross_validation import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
-from gensim.models import LdaModel, TfidfModel
+from gensim.models import TfidfModel
 
 
 def transform(text,stoplist,model):
