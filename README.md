@@ -128,7 +128,7 @@ You can check wheter the model correctly predicted each test data in `model/s2_t
 
 On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related score = TEST/MAX*100
 
-5.Team Member
+Team Member
 ---
 * Chen Guo</br>
 * Jiahui Lang</br>
