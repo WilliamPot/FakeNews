@@ -57,12 +57,8 @@ This folder contains all core files of our project including several python scri
 Getting Started
 ---
 
-To get started, simply download the files in this repository to a local directory.
-
-If the folder named `fnc-1` doesn't exist under the project directory, please download it from: 
-
-then extract it under the project directory.
-
+This is only for COMP9417 teaching staff in UNSW: To get started, simply download the zip file from [Google Drive](https://drive.google.com/open?id=1hBY_mtefi5fQwxwXIGic8jACdjqLuPol), and unzip all files under this `team_retarded`  folder which we have submitted.
+(Warning: if you directly clone files from this repository rather than download from google drive, many csv files haven't been generated, you should follow the steps in 'Reproducing the Submission' to rebuld the whole project.)
 ### Prerequisites
 
 Before any operation, the following is needed:
@@ -81,7 +77,7 @@ In fact, any version is OK if no error occurs after running the program.
 
 As transforming original data and writting them into csv files may take some time, they have been prepared already.
 
-Just execute `predict.py`, then cd to `/fnc-1` and enter `python scorer.py target.csv predict.csv` in command line.
+Just execute `predict.py` under the project directory, then cd to `/fnc-1` and enter `python scorer.py target.csv predict.csv` in command line.
 
 After this, the result including our final score will be printed out. 
 
