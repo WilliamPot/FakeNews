@@ -10,7 +10,6 @@ import pandas as pds
 from gensim import corpora
 from nltk.corpus import stopwords
 import numpy as np
-from sklearn.cross_validation import train_test_split
 from gensim.models import TfidfModel
 
 

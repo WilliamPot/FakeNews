@@ -34,7 +34,7 @@ This file allows us:
 
 ### `Count_vectorizer.pk, tfidf_art`
 
-These two files contain a countvectorizer model and a TF-IDF model for transforming text data into vectors.
+These two files contain a countvectorizer's vocabulary and a TF-IDF model for transforming text data into vectors.
 
 ### `utils`
 
@@ -57,19 +57,19 @@ This folder contains all core files of our project including several python scri
 Getting Started
 ---
 
-To get started, simply download the zip file from [Google Drive](https://drive.google.com/open?id=12hNV3w_K28NOXjt0zXsrwGDPtISsJRJ5) and unzip all files.
+To get started, simply download the zip file from [Google Drive](https://drive.google.com/open?id=120uxcc7Ae5E9wPKjhErepMRU_INdUWVJ) and unzip all files.
 
 ### Prerequisites
 
 Before any operation, the following is needed:
 
-`python == 3.5`<br>
+`python >= 3.5`<br>
 `Numpy == 1.14`<br>
 `scikit-learn == 0.19.1`<br>
 `pandas == 0.23.0`<br>
 `gensim == 3.4.0`<br>
 `nltk == 3.2.5`<br>
-`tensorflow`<br>
+`tensorflow >= 1.8.0`<br>
 `pickle`<br>
 
 In fact, any version is OK if no error occurs after running the program.
@@ -84,7 +84,7 @@ After this, the result including our final score will be printed out.
 
 On the bottom, three columns(MAX, NULL, TEST) will be displayed. The related score = TEST/MAX*100
 
-if you directly clone files from this repository rather than download from [Google Drive](https://drive.google.com/open?id=12hNV3w_K28NOXjt0zXsrwGDPtISsJRJ5), you have to follow the steps in 'Reproducing the Submission' to rebuild the whole project.
+if you directly clone files from this repository rather than download from [Google Drive](https://drive.google.com/open?id=120uxcc7Ae5E9wPKjhErepMRU_INdUWVJ), you have to follow the steps in 'Reproducing the Submission' to rebuild the whole project.
 Reproducing the Submission
 ---
 
@@ -102,7 +102,7 @@ At first, cd to `/model` in command line.
 
 The trained model will be saved in `model/trained_models/stage1/nn/model.ckpt`.
 
-You can check wheter the model correctly predicted each test data in `model/s1_test_output/nn`
+You can check whether the model correctly predicted each test data in `model/s1_test_output/nn`
 
 ### Step 2: Training model for 'Agree, Discuss or Disagree' task
 
@@ -114,7 +114,7 @@ You can check wheter the model correctly predicted each test data in `model/s1_t
 
 The trained model will be saved in `model/trained_models/stage2/nn/model.ckpt`.
 
-You can check wheter the model correctly predicted each test data in `model/s2_test_output/nn`
+You can check whether the model correctly predicted each test data in `model/s2_test_output/nn`
 
 ### Step 3: Use Two Model for Prediction and View the Result
 

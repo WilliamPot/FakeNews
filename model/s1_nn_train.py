@@ -82,7 +82,7 @@ with tf.Session() as sess:
             rand_x = batch_data[0]
             rand_y = batch_data[1]
             sess.run(train_step, feed_dict={x_data: rand_x, y_target: rand_y, keep_prob: 0.6}) 
-        if (k+1)%500 == 0 or (k+1)<30:
+        if (k+1)%500 == 0:
             print("epoch {} finished.".format(k+1))
             for j in range(13):
                 test_X = pds.read_csv('test/diff_tfidf/test_data_{}.csv'.format(j+1))
