@@ -1,5 +1,5 @@
 
-COMP9417 Assignment2 Topic 1.5: FakeNewsChallenge
+FakeNewsChallenge
 ===
 
 Introduction
